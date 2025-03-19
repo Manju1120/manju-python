@@ -1,0 +1,129 @@
+1.ARTHMATIC OPERAION:
+>>> a=30
+>>> b=40
+>>> print(a+b)
+70
+>>> print(a-b)
+-10
+>>> print(a*b)
+1200
+>>> print(a/b)
+0.75
+>>> print(a%b)
+30
+>>> print(a//b)
+0
+>>> print(a**b)
+121576654590569288010000000000000000000000000000000000000000
+
+2.USING USER INPUT:
+ a=int(input("enter first number"))
+enter first number5
+>>> b=int(input("enter second number"))
+enter second number6
+>>> print(a+b)
+11
+>>> print(a-b)
+-1
+>>> print(a*b)
+30
+>>> print(a/b)
+0.8333333333333334
+>>> print(a%b)
+5
+>>> print(a//b)
+0
+>>> print(a**b)
+15625
+
+3.COMPARISION OPERATOR:
+>>> a=20
+>>> b=30
+>>> print(a<b)
+True
+>>> print(a>b)
+False
+>>> print(a<=b)
+True
+>>> print(a>=b)
+False
+
+4.SWAPPING OF TWO NUMBERS:
+>>> a=int(input("enter first number:"))
+enter first number:4
+>>> b=int(input("enter second number:"))
+enter second number:5
+>>> a=a+b
+>>> b=a-b
+>>> a=a-b
+>>> print("after swapping of two numbers")
+after swapping of two numbers
+>>> print("the value of a after swapping :",a)
+the value of a after swapping : 5
+>>> print("the value of b after swapping:",b)
+the value of b after swapping: 4
+
+5.AREA OF TRAINGLE:
+>>> a=int(input("enter first side:"))
+enter first side:8
+>>> b=int(input("enter second side:"))
+enter second side:5
+>>> c=int(input("enter third side:"))
+enter third side:7
+>>> s=(a+b+c)/2
+>>> area=(s*(s-a)*(s-b)*(s-c))**0.5
+>>> print("the area of triangle is:",area)
+the area of triangle is: 17.320508075688775
+
+6.PERIMETER OF RECTNGLE:
+>>> l=float(input("enter the lenght of rectangle:"))
+enter the lenght of rectangle:8
+>>> b=float(input("enter the breadth of rectangle:"))
+enter the breadth of rectangle:5
+>>> area=l*b
+>>> print("the area of rectangle:",area)
+the area of rectangle: 40.0
+>>> perimeter=2*(l+b)
+>>> print("the perimeter of rectangle:",perimeter)
+the perimeter of rectangle: 26.0
+
+7.RADIUS OF CIRCLE:
+>>> diameter=eval(input("enter the diameter of circle:"))
+enter the diameter of circle:10
+>>> radius=diameter/2
+>>> print("the radius of circle is:",radius)
+the radius of circle is: 5.0
+
+
+8.>>> a=20
+>>> b=30
+>>> print(a is b)
+False
+>>> print(a is not b)
+True
+>>> print(id(a))
+8779165236896
+>>> print(id(b))
+8779165237216
+>>> a=[135]
+>>> b=[357]
+>>> print(a is b)
+False
+>>> print(a is not b)
+True
+>>> print(id(a))
+262350066184
+>>> print(id(b))
+262350066696
+
+9.FIND MIN VALUE:
+>>> a=int(input("enter first number:"))
+enter first number:4
+>>> b=int(input("enter second number:"))
+enter second number:8
+>>> c=int(input("enter third number:"))
+enter third number:9
+>>> min=a if a<b and a<c else b if b<c else b<a
+>>> print("minimum value:",min)
+minimum value: 4
+
